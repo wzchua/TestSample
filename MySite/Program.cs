@@ -13,8 +13,8 @@ namespace MySite
             .Factory
             .CreateWeb(args)
             .DeployToGitHubPages(
-                "statiqdev",
-                "statiqdev.github.io",
+                "wzchua",
+                "wzchua.github.io",
                 Config.FromSetting<string>("GITHUB_TOKEN")
             )
             .RunAsync();
